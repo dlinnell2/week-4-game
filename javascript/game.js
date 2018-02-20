@@ -42,8 +42,10 @@ $(document).ready(function () {
 
     // Listen for click 
     $('.crystal').on('click', function () {
+
+        console.log(this);
     
-        // On click determine variable to add to User Total
+        // On click determine value of crystal clicked and add to user total
         userTotal = userTotal + $(this).val();
         console.log(userTotal);
 
