@@ -1,0 +1,12 @@
+On load
+    Assign random number to answer
+    Assign random number to crystals
+    
+During game
+    Track user clicks on each crystal
+    Add amount cyrstal is worth to user total
+    Compare current total to generated answer
+        If less, continue listening
+        If equal, show win and add 1 to win count
+        If more, shwo loss and add 1 to loss count
+        Reinitialize
