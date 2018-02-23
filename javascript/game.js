@@ -56,10 +56,8 @@ $(document).ready(function () {
         // Display 'You Won' in status
         $('#status').text('You Won!');
 
-        // Add game to total games won
+        // Increase games won total and display
         gamesWon++;
-
-        // Display new games won total
         $('#gameWon').text(gamesWon);
 
         // Reset values for answer and crystals
@@ -73,10 +71,8 @@ $(document).ready(function () {
         // Display 'You Won' in status
         $('#status').text('You Lost!');
 
-        // Add game to total games won
+        // Increase games lost total and display
         gamesLost++;
-
-        // Display new games won total
         $('#gameLost').text(gamesLost);
 
         // Reset values for answer and crytals

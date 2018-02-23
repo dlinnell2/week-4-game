@@ -1,0 +1,73 @@
+body {
+    background-image: url('../images/light-veneer.png');
+}
+
+h1 {
+    font-size: 30px;
+    background-color: #5B97FD;
+    color: white;
+    width: 225px;
+    padding: 20px 5px;
+}
+
+.margin {
+    margin: 10px;
+}
+
+#main {
+    font-size: 18px;
+    background-color: #69F6A2;
+    color: black;
+    width: 400px;
+    padding: 20px 5px;
+    line-height: 1.4;
+}
+
+#answer {
+    background-color: #DA69F6;
+    color: white;
+    width: 150px;
+    height: 100px;
+    font-size: 44px;
+}
+
+#container {
+    position: relative;
+}
+
+#info {
+    background-color: #3A0BBD;
+    color: white;
+    width: 100px;
+    height: 100px;
+    font-size: 16px;
+    position: absolute;
+    left: 175px;
+    top: -10px;
+}
+
+.crystal {
+    width: 125px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+h2 {
+    background-color:#035213;
+    color: white;
+    width: 200px;
+    padding: 5px 5px;
+    font-size: 16px;
+}
+
+#userScore {
+    background-color:#035213;
+    color: white;
+    width: 200px;
+    padding: 5px 5px;
+    font-size: 44px;
+}
